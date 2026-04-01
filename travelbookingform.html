@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTML5 Basics Demo</title>
+</head>
+<body>
+  <h1>Travel Booking Form</h1>
+
+  <form>
+    <label for="fullname">Full Name:</label>
+    <input type="text" id="fullname" name="fullname" placeholder="Enter your name">
+    <br><br>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" placeholder="Enter your email">
+    <br><br>
+
+    <label for="phone">Phone:</label>
+    <input type="tel" id="phone" name="phone" placeholder="Enter phone number">
+    <br><br>
+
+    <label for="traveldate">Travel Date:</label>
+    <input type="date" id="traveldate" name="traveldate">
+    <br><br>
+
+    <label for="travelers">Number of Travelers:</label>
+    <input type="number" id="travelers" name="travelers" min="1" max="10">
+    <br><br>
+
+    <label for="destination">Destination:</label>
+    <select id="destination" name="destination">
+      <option value="">Select</option>
+      <option>Paris</option>
+      <option>Zurich</option>
+      <option>Singapore</option>
+    </select>
+    <br><br>
+
+    <label>Travel Class:</label>
+    <input type="radio" id="economy" name="class" value="Economy">
+    <label for="economy">Economy</label>
+
+    <input type="radio" id="business" name="class" value="Business">
+    <label for="business">Business</label>
+    <br><br>
+
+    <label>Extras:</label>
+    <input type="checkbox" id="meal" name="extras" value="Meal">
+    <label for="meal">Meal</label>
+
+    <input type="checkbox" id="hotel" name="extras" value="Hotel">
+    <label for="hotel">Hotel</label>
+    <br><br>
+
+    <label for="notes">Special Requests:</label><br>
+    <textarea id="notes" name="notes" rows="4" cols="30"></textarea>
+    <br><br>
+
+    <button type="submit">Book Now</button>
+    <button type="reset">Reset</button>
+  </form>
+</body>
+</html>
+
+<!-- Tags covered -->
+
+<!-- form, label, input, select, option, textarea, button -->
+
+<!-- HTML5 input types covered -->
+
+<!-- text, email, tel, date, number, radio, checkbox -->
